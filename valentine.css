@@ -54,6 +54,7 @@
 
 body{
     background-color: #ad555daf;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @keyframes firework {
@@ -107,12 +108,4 @@ body{
 
 .firework::after{
     transform: translate(-50%, -50%) rotate(-37deg) !important;
-}
-
-.text_2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.final_text{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

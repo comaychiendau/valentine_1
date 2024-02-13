@@ -123,7 +123,7 @@ function yes_button(){
     var new_text = 'hehe tớ cảm ơn Nhím nhé!!!';
 
     var new_text_1 ='Tớ mong là món quà nhỏ này sẽ khiến cậu cảm thấy vui lên sau những ngày tiêu cực vừa qua. Tớ đã chuẩn bị một vài món quà nhỏ ở bên này rồi, chỉ chờ ngày cậu về nhé. Nhím trong tui hehe'
-    
+    new_text_1.style.textAlign = 'center';
     document.getElementById('final_text').innerText = new_text;
     document.getElementById('text_2').innerText = new_text_1;
     picture.src ='Toothless Dragon Dancing Gif Sticker - Toothless dragon Toothless Dancing gif - Discover & Share GIFs.gif';
